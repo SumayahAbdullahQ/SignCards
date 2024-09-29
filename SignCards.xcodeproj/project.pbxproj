@@ -14,6 +14,9 @@
 		58413C2A2CA98EB400D2ADF1 /* SignCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C292CA98EB400D2ADF1 /* SignCardsTests.swift */; };
 		58413C342CA98EB400D2ADF1 /* SignCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C332CA98EB400D2ADF1 /* SignCardsUITests.swift */; };
 		58413C362CA98EB400D2ADF1 /* SignCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C352CA98EB400D2ADF1 /* SignCardsUITestsLaunchTests.swift */; };
+		58413C432CA98ED400D2ADF1 /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C422CA98ED400D2ADF1 /* AddCardScreen.swift */; };
+		58413C452CA98F0700D2ADF1 /* NewFolderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C442CA98F0700D2ADF1 /* NewFolderScreen.swift */; };
+		58413C472CA98F1C00D2ADF1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C462CA98F1C00D2ADF1 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		58413C2F2CA98EB400D2ADF1 /* SignCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58413C332CA98EB400D2ADF1 /* SignCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCardsUITests.swift; sourceTree = "<group>"; };
 		58413C352CA98EB400D2ADF1 /* SignCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58413C422CA98ED400D2ADF1 /* AddCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardScreen.swift; sourceTree = "<group>"; };
+		58413C442CA98F0700D2ADF1 /* NewFolderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFolderScreen.swift; sourceTree = "<group>"; };
+		58413C462CA98F1C00D2ADF1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				58413C182CA98EB300D2ADF1 /* SignCardsApp.swift */,
 				58413C1A2CA98EB300D2ADF1 /* ContentView.swift */,
+				58413C462CA98F1C00D2ADF1 /* HomeScreen.swift */,
+				58413C422CA98ED400D2ADF1 /* AddCardScreen.swift */,
+				58413C442CA98F0700D2ADF1 /* NewFolderScreen.swift */,
 				58413C1C2CA98EB400D2ADF1 /* Assets.xcassets */,
 				58413C1E2CA98EB400D2ADF1 /* Preview Content */,
 			);
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				58413C1B2CA98EB300D2ADF1 /* ContentView.swift in Sources */,
+				58413C472CA98F1C00D2ADF1 /* HomeScreen.swift in Sources */,
+				58413C432CA98ED400D2ADF1 /* AddCardScreen.swift in Sources */,
+				58413C452CA98F0700D2ADF1 /* NewFolderScreen.swift in Sources */,
 				58413C192CA98EB300D2ADF1 /* SignCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
