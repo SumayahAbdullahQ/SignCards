@@ -34,10 +34,10 @@ struct AddCardScreen: View {
                     .padding(.horizontal)
                 Spacer()
             }
-            Rectangle()
-                .fill(.white)
+            
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(.gray, lineWidth: 1)
                 .frame(width: 300, height: 200)
-                .border(.gray, width: 1.5)
                 .padding()
             HStack(spacing: 10)
             {
@@ -75,10 +75,26 @@ struct AddCardScreen: View {
                     .fill(.purple)
                     .frame(width: 60, height: 60)
             }
+            .padding()
+            
+                HStack{
+                    Button(action: {}) {
+                        Text("Folder")
+                            .padding(.horizontal)
+                    }
+                    Spacer()
+                    Button(action: {}) {
+                        Text(">")
+                            .padding(.horizontal)
+                    }
+                    
+                }
+            }
             Spacer()
+            
         }
+    
     }
-}
 
 #Preview {
     AddCardScreen()
