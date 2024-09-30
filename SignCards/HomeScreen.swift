@@ -9,8 +9,27 @@ import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image(.singCardsLogo2)
+                .resizable()
+                .frame(width: 200,height:200)
+            Text("SingCards")
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .foregroundStyle(
+                    LinearGradient(
+                        colors: [Color("logo color"), .color2],
+                        startPoint: .top,
+                        endPoint: .bottom
+                        
+                    )
+                )
+            Image(.white)
+            Image(.move)
+            
+        }
     }
+    
 }
 
 #Preview {
