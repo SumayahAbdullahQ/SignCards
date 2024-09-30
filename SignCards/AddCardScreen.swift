@@ -59,9 +59,10 @@ struct AddCardScreen: View {
             }
             HStack(spacing: 10)
             {
-                Circle()
-                    .fill(.green)
-                    .frame(width: 60, height: 60)
+                Button(action: {}) {
+                    Circle()
+                        .fill(.green)
+                    .frame(width: 60, height: 60)}
                 Circle()
                     .fill(.mint)
                     .frame(width: 60, height: 60)
