@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		347F83222CAD6350005DD7B5 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		347F83222CAD6350005DD7B5 /* LogIn.swift */ = {isa = PBXFileReference; indentWidth = 6; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; tabWidth = 6; };
 		58413C152CA98EB300D2ADF1 /* SignCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58413C182CA98EB300D2ADF1 /* SignCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCardsApp.swift; sourceTree = "<group>"; };
 		58413C1A2CA98EB300D2ADF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };

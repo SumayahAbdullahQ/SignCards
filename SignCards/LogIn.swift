@@ -11,6 +11,13 @@ struct LogIn: View {
     var body: some View {
         @State  var name: String = ""
         VStack {
+            Image(.singCardsLogo2)
+                .resizable()
+                .frame(width: 75,height:75)
+                .padding()
+                
+              Spacer()
+                    .frame(width: 75.0, height: 75.0)
             Text("Waht is your name ?")
                 .font(.headline)
                 .padding()
