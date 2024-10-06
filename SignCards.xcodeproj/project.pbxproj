@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		3A5D34052CAAE13300329B25 /* HomeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D34042CAAE13300329B25 /* HomeScreen2.swift */; };
 		3A5D34072CAC166000329B25 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D34062CAC166000329B25 /* LogInScreen.swift */; };
 		3A5D340B2CAEBEE700329B25 /* FolderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5D340A2CAEBEE700329B25 /* FolderScreen.swift */; };
+=======
+		347F83232CAD6350005DD7B5 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F83222CAD6350005DD7B5 /* LogIn.swift */; };
+>>>>>>> main
 		58413C192CA98EB300D2ADF1 /* SignCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C182CA98EB300D2ADF1 /* SignCardsApp.swift */; };
 		58413C1B2CA98EB300D2ADF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413C1A2CA98EB300D2ADF1 /* ContentView.swift */; };
 		58413C1D2CA98EB400D2ADF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58413C1C2CA98EB400D2ADF1 /* Assets.xcassets */; };
@@ -40,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		3A5D34042CAAE13300329B25 /* HomeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen2.swift; sourceTree = "<group>"; };
 		3A5D34062CAC166000329B25 /* LogInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreen.swift; sourceTree = "<group>"; };
 		3A5D340A2CAEBEE700329B25 /* FolderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScreen.swift; sourceTree = "<group>"; };
+=======
+		347F83222CAD6350005DD7B5 /* LogIn.swift */ = {isa = PBXFileReference; indentWidth = 6; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; tabWidth = 6; };
+>>>>>>> main
 		58413C152CA98EB300D2ADF1 /* SignCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58413C182CA98EB300D2ADF1 /* SignCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignCardsApp.swift; sourceTree = "<group>"; };
 		58413C1A2CA98EB300D2ADF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +121,7 @@
 				58413C1A2CA98EB300D2ADF1 /* ContentView.swift */,
 				58413C462CA98F1C00D2ADF1 /* HomeScreen.swift */,
 				58413C422CA98ED400D2ADF1 /* AddCardScreen.swift */,
+				347F83222CAD6350005DD7B5 /* LogIn.swift */,
 				58413C442CA98F0700D2ADF1 /* NewFolderScreen.swift */,
 				58413C1C2CA98EB400D2ADF1 /* Assets.xcassets */,
 				58413C1E2CA98EB400D2ADF1 /* Preview Content */,
@@ -277,7 +286,11 @@
 			files = (
 				3A5D340B2CAEBEE700329B25 /* FolderScreen.swift in Sources */,
 				58413C1B2CA98EB300D2ADF1 /* ContentView.swift in Sources */,
+<<<<<<< HEAD
 				3A5D34052CAAE13300329B25 /* HomeScreen2.swift in Sources */,
+=======
+				347F83232CAD6350005DD7B5 /* LogIn.swift in Sources */,
+>>>>>>> main
 				58413C472CA98F1C00D2ADF1 /* HomeScreen.swift in Sources */,
 				58413C432CA98ED400D2ADF1 /* AddCardScreen.swift in Sources */,
 				58413C452CA98F0700D2ADF1 /* NewFolderScreen.swift in Sources */,

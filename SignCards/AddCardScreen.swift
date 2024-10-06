@@ -38,6 +38,7 @@ struct AddCardScreen: View {
             RoundedRectangle(cornerRadius: 10)
                 .stroke(.gray, lineWidth: 1)
                 .frame(width: 300, height: 200)
+                .background(Color.white)
                 .padding()
             HStack(spacing: 10)
             {
@@ -96,6 +97,7 @@ struct AddCardScreen: View {
         }
     
     }
+
 
 #Preview {
     AddCardScreen()
